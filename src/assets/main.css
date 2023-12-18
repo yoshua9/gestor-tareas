@@ -1,0 +1,40 @@
+@import "./base.css";
+
+#app {
+  width: 100%;
+  margin: 0 auto;
+  font-weight: normal;
+  font-family: Arial, sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.f-column {
+  flex-direction: column;
+}
+
+.f-row {
+  flex-direction: row;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.shadow-1 {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
